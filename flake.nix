@@ -41,6 +41,7 @@
           ./modules/packages.nix
           ./modules/mac-config.nix
           ./modules/python-versions.nix
+          ./modules/postgresql-version.nix
           configuration
         ];
     };
