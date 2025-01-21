@@ -71,5 +71,8 @@
     zoxide
     chart-testing
     black
+    ripgrep
+    go
+    kor
   ];
 }
