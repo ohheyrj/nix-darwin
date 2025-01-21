@@ -77,5 +77,7 @@
     kubectl
     krew
     nodejs_22
+    gpgme
+    gnupg
   ];
 }
