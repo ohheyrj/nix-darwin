@@ -40,6 +40,7 @@
           ./modules/keymapping.nix
           ./modules/packages.nix
           ./modules/mac-config.nix
+          ./modules/python-versions.nix
           configuration
         ];
     };
