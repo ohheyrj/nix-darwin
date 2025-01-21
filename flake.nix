@@ -39,6 +39,7 @@
       modules = [
           ./modules/keymapping.nix
           ./modules/packages.nix
+          ./modules/mac-config.nix
           configuration
         ];
     };
