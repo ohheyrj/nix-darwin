@@ -1,9 +1,9 @@
-{ pkgs, ... }: {
-  system.defaults.LaunchServices = {
-    LSDisabledMediaTypes = [
-      "com.apple.disc-burning-device"
-      "com.apple.disk-image"
-      "com.apple.dvd"
-    ];
+{ pkgs, system, ... }: {
+  system.defaults = {
+    NSGlobalDomain.AppleInterfaceStyle = "Dark";
   };
+  system.activationScripts.postUserActivation.text = ''
+    # Following line should allow us to avoid a logout/login cycle
+    /System/Library/PrivateFrameworks/SystemAdministration.framework/Resources/activateSettings -u
+  '';
 }
