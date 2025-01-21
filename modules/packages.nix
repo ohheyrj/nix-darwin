@@ -75,5 +75,6 @@
     go
     kor
     kubectl
+    krew
   ];
 }
