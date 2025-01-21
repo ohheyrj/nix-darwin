@@ -69,5 +69,7 @@
     yamllint
     yq
     zoxide
+    chart-testing
+    black
   ];
 }
