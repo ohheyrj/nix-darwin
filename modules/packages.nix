@@ -76,5 +76,6 @@
     kor
     kubectl
     krew
+    nodejs_22
   ];
 }
