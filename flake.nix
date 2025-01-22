@@ -44,6 +44,7 @@
           ./modules/mac-config.nix
           ./modules/python-versions.nix
           ./modules/postgresql-version.nix
+          ./modules/brew.nix
           configuration
           mac-app-util.darwinModules.default
           nix-homebrew.darwinModules.nix-homebrew
