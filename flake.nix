@@ -49,7 +49,7 @@
           nix-homebrew.darwinModules.nix-homebrew
           {
             nix-homebrew = {
-              enabled = true;
+              enable = true;
               enableRosetta = true;
               user = "richard";
               autoMigrate = true;
