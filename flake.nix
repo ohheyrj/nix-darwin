@@ -6,9 +6,10 @@
     nix-darwin.url = "github:LnL7/nix-darwin/master";
     nix-darwin.inputs.nixpkgs.follows = "nixpkgs";
     mac-app-util.url = "github:hraban/mac-app-util";
+    nix-homebrew.url = "github:zhaofengli-wip/nix-homebrew";
   };
 
-  outputs = inputs@{ self, nix-darwin, nixpkgs, mac-app-util }:
+  outputs = inputs@{ self, nix-darwin, nixpkgs, nix-homebrew, mac-app-util }:
   let
     configuration = { pkgs, ... }: {
       # List packages installed in system profile. To search by name, run:
@@ -45,6 +46,15 @@
           ./modules/postgresql-version.nix
           configuration
           mac-app-util.darwinModules.default
+          nix-homebrew.darwinModules.nix-homebrew
+          {
+            nix-homebrew = {
+              enabled = true;
+              enableRosetta = true;
+              user = "richard";
+              autoMigrate = true;
+            };
+          }
         ];
     };
   };
