@@ -1,5 +1,6 @@
 { pkgs, config, ... }: {
   homebrew = {
+    enable = true;
     brews = [
       "mas"
     ];
