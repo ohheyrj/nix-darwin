@@ -5,7 +5,7 @@
       "mas"
     ];
     masApps = {
-      "Yoink" = 457622435;
+      "WhatsApp Messenger" = 310633997;
     };
   };
 }

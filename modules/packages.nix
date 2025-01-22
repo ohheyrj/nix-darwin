@@ -49,9 +49,7 @@
     nmap
     oh-my-posh
     packer
-    pipenv
     popeye
-    pre-commit
     pv-migrate
     shellcheck
     speedtest-cli
@@ -69,13 +67,10 @@
     yq
     zoxide
     chart-testing
-    black
     ripgrep
-    go
     kor
     kubectl
     krew
-    nodejs_22
     gpgme
     gnupg
     mkalias
