@@ -40,7 +40,6 @@
     kubespy
     lazygit
     markdownlint-cli
-    mas
     mcfly
     mkpasswd
     mr
