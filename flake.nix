@@ -40,17 +40,23 @@
     darwinConfigurations."EvilCorp" = nix-darwin.lib.darwinSystem {
       modules = [
           ./modules/keymapping.nix
-          ./modules/packages.nix
           ./modules/mac-config.nix
-          ./modules/python-versions.nix
-          ./modules/postgresql-version.nix
-          ./modules/brew.nix
-          ./modules/packages/dev-tools.nix
+          ./modules/packages/brew/brew.nix
+          ./modules/packages/nix/applicaations.nix
+          ./modules/packages/nix/cloud-tools.nix
+          ./modules/packages/nix/container-tools.nix
+          ./modules/packages/nix/dev-tools.nix
+          ./modules/packages/nix/document-tools.nix
+          ./modules/packages/nix/git-tools.nix
+          ./modules/packages/nix/kubernetes-tools.nix
+          ./modules/packages/nix/postgresql-version.nix
+          ./modules/packages/nix/python-versions.nix
+          ./modules/packages/nix/system-tools.nix
           configuration
           mac-app-util.darwinModules.default
           nix-homebrew.darwinModules.nix-homebrew
           {
-            nix-homebrew = {
+           nix-homebrew = {
               enable = true;
               enableRosetta = true;
               user = "richard";
