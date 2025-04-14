@@ -7,16 +7,18 @@
     nix-darwin.inputs.nixpkgs.follows = "nixpkgs";
     mac-app-util.url = "github:hraban/mac-app-util";
     nix-homebrew.url = "github:zhaofengli-wip/nix-homebrew";
+    home-manager.url = "github:nix-community/home-manager";
+    home-manager.inputs.nixpkgs.follows = "nixpkgs";
   };
 
-  outputs = inputs@{ self, nix-darwin, nixpkgs, nix-homebrew, mac-app-util }:
+  outputs = inputs@{ self, nix-darwin, nixpkgs, nix-homebrew, mac-app-util, home-manager, ... }:
   let
     configuration = { pkgs, ... }: {
       # List packages installed in system profile. To search by name, run:
       # $ nix-env -qaP | grep wget
        # Necessary for using flakes on this system.
       nix.settings.experimental-features = "nix-command flakes";
-
+      nix.settings.trusted-users = ["root" "richard"];
       # Enable alternative shell support in nix-darwin.
       # programs.fish.enable = true;
       programs.zsh.enable = true;
@@ -32,6 +34,7 @@
       nixpkgs.config = {
           allowUnfree = true;
         };
+      programs.direnv.enable = true;
     };
   in
   {
@@ -62,6 +65,11 @@
               user = "richard";
               autoMigrate = true;
             };
+          }
+          home-manager.darwinModules.home-manager {
+            home-manager.useGlobalPkgs = true;
+            home-manager.useUserPackages = true;
+            home-manager.users.richard = import ./modules/home-manager.nix;
           }
         ];
     };
