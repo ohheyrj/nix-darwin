@@ -35,6 +35,7 @@
           allowUnfree = true;
         };
       programs.direnv.enable = true;
+      users.users.richard.home = /Users/richard;
     };
   in
   {
@@ -69,6 +70,7 @@
           home-manager.darwinModules.home-manager {
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
+            home-manager.backupFileExtension = "backup";
             home-manager.users.richard = import ./modules/home-manager.nix;
           }
         ];
