@@ -68,9 +68,11 @@
             };
           }
           home-manager.darwinModules.home-manager {
-            home-manager.useGlobalPkgs = true;
-            home-manager.useUserPackages = true;
-            home-manager.backupFileExtension = "backup";
+            home-manager = {
+              useGlobalPkgs = true;
+              useUserPackages = true;
+              backupFileExtension = "backup";
+            };
             home-manager.users.richard = import ./modules/home-manager.nix;
           }
         ];
