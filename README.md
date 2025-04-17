@@ -1,3 +1,12 @@
+## Updating packages
+
+To update the packages, run:
+
+```bash
+nix flake update
+```
+
+
 ## Compare changes to current system
 
 To compare what will be applied at the next switch run the build command first:
