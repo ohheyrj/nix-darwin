@@ -1,5 +1,6 @@
 { pkgs, ... }: {
   environment.systemPackages = with pkgs; [
+    ggshield
     gh
     ghq
     gitleaks
