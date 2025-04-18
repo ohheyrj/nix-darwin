@@ -1,9 +1,11 @@
 { config, pkgs, ... }:
 
 {
-  home.username = "richard";
-  home.stateVersion = "24.11";
-  home.homeDirectory = /Users/richard;
+  home = {
+    username = "richard";
+    stateVersion = "24.11";
+    homeDirectory = /Users/richard;
+  };
   programs.home-manager.enable = true;
   imports = [
     ./zsh.nix
