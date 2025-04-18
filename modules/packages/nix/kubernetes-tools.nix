@@ -18,7 +18,7 @@
     kubespy
     popeye
     pv-migrate
-    velero 
+    velero
     pluto
   ];
 }
