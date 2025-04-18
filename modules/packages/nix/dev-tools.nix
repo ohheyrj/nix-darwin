@@ -4,6 +4,7 @@
     devenv
     gitkraken
     go
+    graphviz
     nodejs_22
     pipenv
     pre-commit
