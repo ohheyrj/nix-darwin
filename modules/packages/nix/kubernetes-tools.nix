@@ -19,5 +19,6 @@
     popeye
     pv-migrate
     velero 
+    pluto
   ];
 }
