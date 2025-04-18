@@ -10,6 +10,7 @@
     kube-capacity
     kube-linter
     kubecm
+    kubeconform
     kubectl
     kubectx
     kubernetes-helm
