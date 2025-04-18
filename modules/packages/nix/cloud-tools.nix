@@ -7,6 +7,7 @@
     awscli2
     checkov
     cloudlens
+    granted
     infracost
     inframap
     packer 
