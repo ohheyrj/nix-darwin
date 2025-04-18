@@ -8,5 +8,6 @@
     nodejs_22
     pipenv
     pre-commit
+    statix
   ];
 }
