@@ -9,6 +9,7 @@
     ];
     masApps = {
       "WhatsApp Messenger" = 310633997;
+      "Amazon Prime Video" = 545519333;
     };
   };
 }
