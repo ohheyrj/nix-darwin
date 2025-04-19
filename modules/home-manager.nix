@@ -9,5 +9,6 @@
   programs.home-manager.enable = true;
   imports = [
     ./zsh.nix
+    ./home-manager/tmux.nix
   ];
 }
