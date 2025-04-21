@@ -10,5 +10,6 @@
   imports = [
     ./zsh.nix
     ./home-manager/tmux.nix
+    ./home-manager/git.nix
   ];
 }
