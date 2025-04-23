@@ -1,0 +1,51 @@
+From 6bf48c9fffebb5127c8c9a8683e5d0ec0776da6e Mon Sep 17 00:00:00 2001
+From: Morgan Helton <mhelton@gmail.com>
+Date: Mon, 21 Apr 2025 15:22:20 -0500
+Subject: [PATCH] python3Packages.mocket: disable
+ test_httprettish_httpx_session on darwin
+
+---
+ .../python-modules/mocket/default.nix         | 23 +++++++++++--------
+ 1 file changed, 14 insertions(+), 9 deletions(-)
+
+diff --git a/pkgs/development/python-modules/mocket/default.nix b/pkgs/development/python-modules/mocket/default.nix
+index ac41c15988534b..3aea605c232a94 100644
+--- a/pkgs/development/python-modules/mocket/default.nix
++++ b/pkgs/development/python-modules/mocket/default.nix
+@@ -1,6 +1,7 @@
+ {
+   lib,
+   buildPythonPackage,
++  stdenv,
+   fetchPypi,
+ 
+   # build-system
+@@ -78,15 +79,19 @@ buildPythonPackage rec {
+ 
+   _darwinAllowLocalNetworking = true;
+ 
+-  disabledTests = [
+-    # tests that require network access (like DNS lookups)
+-    "test_truesendall_with_dump_from_recording"
+-    "test_aiohttp"
+-    "test_asyncio_record_replay"
+-    "test_gethostbyname"
+-    # httpx read failure
+-    "test_no_dangling_fds"
+-  ];
++  disabledTests =
++    [
++      # tests that require network access (like DNS lookups)
++      "test_truesendall_with_dump_from_recording"
++      "test_aiohttp"
++      "test_asyncio_record_replay"
++      "test_gethostbyname"
++      # httpx read failure
++      "test_no_dangling_fds"
++    ]
++    ++ lib.optionals stdenv.hostPlatform.isDarwin [
++      "test_httprettish_httpx_session"
++    ];
+ 
+   pythonImportsCheck = [ "mocket" ];
+ 
