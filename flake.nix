@@ -39,13 +39,11 @@
       ## Temp work around for issue
       nixpkgs.overlays = [
           (final: prev: {
-            python312 = prev.python312.override {
-              packageOverrides = pyFinal: pyPrev: {
-                mocket = pyPrev.mocket.overrideAttrs (old: {
-                  doCheck = false;
-                });
-              };
-            };
+            python312Packages = prev.python312Packages.overrideScope (self: super: {
+              mocket = super.mocket.overrideAttrs (old: {
+                doCheck = false;
+              });
+            });
           })
         ];
     };
