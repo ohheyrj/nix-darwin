@@ -7,7 +7,6 @@
     gitmoji-cli
     glab
     bfg-repo-cleaner
-    lazygit
     mr
   ];
 }
