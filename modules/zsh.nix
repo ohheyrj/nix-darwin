@@ -17,6 +17,8 @@
       ls = "eza";
       ll = "eza -al";
       lst = "eza --tree";
+      update-nix = "darwin-rebuild switch --flake ~/nix";
+      update-nix-trace = "darwin-rebuild switch --flake ~/nix --show-trace";
     };
     initExtra = ''
       autoload -U compinit && compinit
