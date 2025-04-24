@@ -7,6 +7,12 @@
     homeDirectory = /Users/richard;
   };
   programs.home-manager.enable = true;
+  programs.eza = {
+    enable = true;
+    enableZshIntegration = true;
+    colors = "auto";
+    icons = "auto";
+  };
   imports = [
     ./zsh.nix
     ./home-manager/tmux.nix
