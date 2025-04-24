@@ -1,7 +1,8 @@
 { pkgs, ... }: {
   environment.systemPackages = with pkgs; [
-    ansible
-    ansible-lint
+    ## Disabling ansible as there is an issue with the package install
+    # ansible
+    # ansible-lint
     argocd
     aws-nuke
     awscli2
