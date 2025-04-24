@@ -36,17 +36,7 @@
         };
       programs.direnv.enable = true;
       users.users.richard.home = /Users/richard;
-      ## Temp work around for issue
-      nixpkgs.overlays = [
-          (final: prev: {
-            python312Packages = prev.python312Packages.overrideScope (self: super: {
-              mocket = super.mocket.overrideAttrs (old: {
-                doCheck = false;
-              });
-            });
-          })
-        ];
-    };
+      };
   in
   {
     # Build darwin flake using:
