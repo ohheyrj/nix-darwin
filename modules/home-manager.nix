@@ -6,13 +6,14 @@
     stateVersion = "24.11";
     homeDirectory = /Users/richard;
   };
-  programs.home-manager.enable = true;
-  programs.eza = {
-    enable = true;
-    enableZshIntegration = true;
-    colors = "auto";
-    icons = "auto";
-  };
+  programs = {
+    home-manager.enable = true;
+    eza = {
+      enable = true;
+      enableZshIntegration = true;
+      colors = "auto";
+      icons = "auto";
+    };
     lazygit = {
       enable = true;
       settings = {
