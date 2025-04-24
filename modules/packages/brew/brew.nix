@@ -33,7 +33,6 @@
       "Magnet" = 441258766;
       "MenubarX" = 1575588022;
       "Microsoft OneNote" = 784801555;
-      "Microsoft Remote Desktop" = 1295203466;
       "Numbers" = 409203825;
       "Pages" = 409201541;
       "Parcel" = 639968404;
