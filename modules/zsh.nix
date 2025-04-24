@@ -14,8 +14,9 @@
       v = "nvim";
       vi = "nvim";
       vim = "nvim";
-      ls = "ls -colour";
-      ll = "ls -al";
+      ls = "eza";
+      ll = "eza -al";
+      lst = "eza --tree";
     };
     initExtra = ''
       autoload -U compinit && compinit
