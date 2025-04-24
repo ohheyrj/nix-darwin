@@ -13,6 +13,14 @@
     colors = "auto";
     icons = "auto";
   };
+    lazygit = {
+      enable = true;
+      settings = {
+        gui.nerdFontVersion = "3";
+        gui.showIcons = true;
+      };
+    };
+  };
   imports = [
     ./zsh.nix
     ./home-manager/tmux.nix
