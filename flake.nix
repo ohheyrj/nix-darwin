@@ -56,6 +56,7 @@
           ./modules/packages/nix/postgresql-version.nix
           ./modules/packages/nix/python-versions.nix
           ./modules/packages/nix/system-tools.nix
+          ./modules/services/podman.nix
           configuration
           mac-app-util.darwinModules.default
           nix-homebrew.darwinModules.nix-homebrew

@@ -27,6 +27,5 @@
     ./home-manager/tmux.nix
     ./home-manager/github.nix
     ./home-manager/git.nix
-    ./home-manager/podman.nix
   ];
 }
