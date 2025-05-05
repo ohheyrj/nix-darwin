@@ -28,5 +28,6 @@
     ./home-manager/github.nix
     ./home-manager/git.nix
     ./home-manager/ssh.nix
+    ./home-manager/vscode.nix
   ];
 }
