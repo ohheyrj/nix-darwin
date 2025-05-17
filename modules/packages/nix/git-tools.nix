@@ -8,6 +8,7 @@
     glab
     bfg-repo-cleaner
     mr
+    gitkraken
   ];
 }
 
