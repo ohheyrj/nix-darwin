@@ -20,6 +20,8 @@
           ms-vscode.live-server
           ritwickdey.liveserver
           yzhang.markdown-all-in-one
+          pkief.material-icon-theme
+          jnoortheen.nix-ide
         ];
       };
     };
