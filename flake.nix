@@ -85,6 +85,9 @@
               useGlobalPkgs = true;
               useUserPackages = true;
               backupFileExtension = "backup";
+              sharedModules = [
+                mac-app-util.homeManagerModules.default
+              ];
             };
             home-manager.users.richard = import ./modules/home-manager.nix;
           }
