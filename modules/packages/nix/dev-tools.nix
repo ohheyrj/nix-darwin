@@ -9,5 +9,6 @@
     pipenv
     pre-commit
     statix
+    ngrok
   ];
 }
