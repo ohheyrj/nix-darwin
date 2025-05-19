@@ -10,5 +10,6 @@
     pre-commit
     statix
     ngrok
+    undmg
   ];
 }
