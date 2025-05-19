@@ -6,5 +6,6 @@
 {
   environment.systemPackages = [
     custom-nix-packages.packages.${pkgs.system}.kobo-desktop
+    custom-nix-packages.packages.${pkgs.system}.chatterino  
   ];
 }
