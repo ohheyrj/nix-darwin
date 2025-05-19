@@ -22,6 +22,7 @@
     zoxide
     sops
     nixos-generators
+    dialog
     _7zz
   ];
 }
