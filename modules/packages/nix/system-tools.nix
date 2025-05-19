@@ -22,5 +22,6 @@
     zoxide
     sops
     nixos-generators
+    _7zz
   ];
 }
