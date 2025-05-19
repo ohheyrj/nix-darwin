@@ -21,6 +21,7 @@
     tree
     zoxide
     sops
+    utm
     nixos-generators
     dialog
     _7zz
