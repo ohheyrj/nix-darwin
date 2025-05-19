@@ -11,5 +11,6 @@
     statix
     ngrok
     undmg
+    cachix
   ];
 }
