@@ -9,9 +9,14 @@
     nix-homebrew.url = "github:zhaofengli-wip/nix-homebrew";
     home-manager.url = "github:nix-community/home-manager";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
+    custom-nix-packages.url = "github:ohheyrj/custom-nix-pkgs";
+    nur = {
+      url = "github:nix-community/NUR";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
-  outputs = inputs@{ self, nix-darwin, nixpkgs, nix-homebrew, mac-app-util, home-manager, ... }:
+  outputs = inputs@{ self, nix-darwin, nixpkgs, nix-homebrew, mac-app-util, home-manager, custom-nix-packages, nur, ... }:
   let
     configuration = { pkgs, ... }: {
       # List packages installed in system profile. To search by name, run:
@@ -34,6 +39,9 @@
       nixpkgs.config = {
           allowUnfree = true;
         };
+      nixpkgs.overlays = [
+          nur.overlays.default
+        ];
       programs.direnv.enable = true;
       users.users.richard.home = /Users/richard;
       };
@@ -42,6 +50,9 @@
     # Build darwin flake using:
     # $ darwin-rebuild build --flake .#EvilCorp
     darwinConfigurations."EvilCorp" = nix-darwin.lib.darwinSystem {
+      specialArgs = {
+        inherit custom-nix-packages;
+      };
       modules = [
           ./modules/keymapping.nix
           ./modules/mac-config.nix
@@ -57,6 +68,7 @@
           ./modules/packages/nix/python-versions.nix
           ./modules/packages/nix/system-tools.nix
           ./modules/services/podman.nix
+          ./modules/packages/nix/custom-packages.nix
           configuration
           mac-app-util.darwinModules.default
           nix-homebrew.darwinModules.nix-homebrew
