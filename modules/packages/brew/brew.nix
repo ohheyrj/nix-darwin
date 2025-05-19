@@ -43,7 +43,6 @@
       "Wallabag QuickSave" = 1621482657;
       "WhatsApp Messenger" = 310633997;
       "Xcode" = 497799835;
-      "Yubico Authenticator" = 1497506650;
       "iCaching" = 420484346;
       "reMarkable" = 1276493162;
     };
