@@ -4,5 +4,6 @@
     gimp
     _1password-cli
     chatgpt
+    brave
   ];
 }
