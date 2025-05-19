@@ -5,5 +5,11 @@
     _1password-cli
     chatgpt
     brave
+    gnupg
+    pinentry_mac
+    yubikey-manager
+    yubikey-personalization
+    paperkey
+    pinentry-curses
   ];
 }
