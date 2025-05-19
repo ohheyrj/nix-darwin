@@ -1,6 +1,3 @@
-{ myrepo, ... }: {
-  environment.systemPackages = with myrepo; [
-    kobo-desktop
 { pkgs, custom-nix-packages, ... }:
 
 {
