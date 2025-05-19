@@ -3,15 +3,14 @@
 {
   programs.ssh = {
     enable = true;
-    matchBlocks = [
-      {
-        "*.*.compute.amazonaws.com" = {
-          hostname = "*.*.compute.amazonaws.com";
+    matchBlocks = {
+        "*.amazonaws.com" = {
           user = "ec2-user";
-          setenv = "TERM=xterm-256color";
+          setEnv = {
+            "TERM" = "xterm-256color";
+          };
         };
-      }
-    ];
+      };
   };
 }
 
