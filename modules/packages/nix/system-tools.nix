@@ -20,5 +20,7 @@
     tmux
     tree
     zoxide
+    sops
+    nixos-generators
   ];
 }
