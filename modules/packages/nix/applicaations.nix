@@ -3,5 +3,6 @@
     exercism
     gimp
     _1password-cli
+    chatgpt
   ];
 }
