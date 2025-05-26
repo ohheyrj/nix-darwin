@@ -68,6 +68,7 @@
           ./modules/packages/nix/python-versions.nix
           ./modules/packages/nix/system-tools.nix
           ./modules/packages/nix/custom-packages.nix
+          ./modules/packages/fonts.nix
           configuration
           mac-app-util.darwinModules.default
           nix-homebrew.darwinModules.nix-homebrew
