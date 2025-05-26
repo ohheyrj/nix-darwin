@@ -12,5 +12,7 @@
     ngrok
     undmg
     cachix
+    # TODO: fix broken postman package
+    #postman
   ];
 }
