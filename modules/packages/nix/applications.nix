@@ -13,5 +13,7 @@
     pinentry-curses
     alt-tab-macos
     nur.repos.ohheyrj.chatterino
+    # TODO: package calibre
+    #    calibre
   ];
 }
