@@ -57,7 +57,7 @@
           ./modules/keymapping.nix
           ./modules/mac-config.nix
           ./modules/packages/brew/brew.nix
-          ./modules/packages/nix/applicaations.nix
+          ./modules/packages/nix/applications.nix
           ./modules/packages/nix/cloud-tools.nix
           ./modules/packages/nix/container-tools.nix
           ./modules/packages/nix/dev-tools.nix
