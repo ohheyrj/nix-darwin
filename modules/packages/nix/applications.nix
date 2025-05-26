@@ -15,5 +15,7 @@
     nur.repos.ohheyrj.chatterino
     # TODO: package calibre
     #    calibre
+    # TODO: package https://cryptomator.org/for-individuals/
+    #    cryptomator
   ];
 }
