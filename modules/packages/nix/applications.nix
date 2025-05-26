@@ -11,5 +11,6 @@
     yubikey-personalization
     paperkey
     pinentry-curses
+    nur.repos.ohheyrj.chatterino
   ];
 }
