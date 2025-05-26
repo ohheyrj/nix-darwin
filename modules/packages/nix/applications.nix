@@ -11,6 +11,7 @@
     yubikey-personalization
     paperkey
     pinentry-curses
+    alt-tab-macos
     nur.repos.ohheyrj.chatterino
   ];
 }
