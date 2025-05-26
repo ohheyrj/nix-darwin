@@ -5,5 +5,6 @@
     podman
     podman-tui
     podman-compose
+    lens # Outdated
   ];
 }
