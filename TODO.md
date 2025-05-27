@@ -1,8 +1,8 @@
 # TODO Report
 
-Generated on: 2025-05-27 18:59:16
+Generated on: 2025-05-27 21:46:28
 
-Total TODOs found: 5
+Total TODOs found: 7
 
 ## modules/keymapping.nix
 
@@ -58,36 +58,68 @@ Total TODOs found: 5
 
 ## modules/packages/nix/applications.nix
 
-### Line 21
+### Line 15
+
+**TODO:** `# TODO: package handbrake`
+
+**Context:**
+
+```python
+     13:     pinentry-curses
+     14:     alt-tab-macos
+>>>  15:     # TODO: package handbrake
+     16:     # handbrake
+     17:     nur.repos.ohheyrj.chatterino
+```
+
+---
+
+### Line 23
 
 **TODO:** `# TODO: package calibre`
 
 **Context:**
 
 ```python
-     19:     nur.repos.ohheyrj.bartender5
-     20:     nur.repos.ohheyrj.cryptomator
->>>  21:     # TODO: package calibre
-     22:     #    calibre
-     23:   ];
+     21:     nur.repos.ohheyrj.bartender5
+     22:     nur.repos.ohheyrj.cryptomator
+>>>  23:     # TODO: package calibre
+     24:     # calibre
+     25:     slack
+```
+
+---
+
+### Line 26
+
+**TODO:** `# TODO: package signal`
+
+**Context:**
+
+```python
+     24:     # calibre
+     25:     slack
+>>>  26:     # TODO: package signal
+     27:     # signal-desktop
+     28:     discord
 ```
 
 ---
 
 ## modules/packages/nix/dev-tools.nix
 
-### Line 15
+### Line 16
 
 **TODO:** `# TODO: fix broken postman package`
 
 **Context:**
 
 ```python
-     13:     undmg
      14:     cachix
->>>  15:     # TODO: fix broken postman package
-     16:     #postman
-     17:   ];
+     15:     dbeaver-bin
+>>>  16:     # TODO: fix broken postman package
+     17:     #postman
+     18:   ];
 ```
 
 ---
