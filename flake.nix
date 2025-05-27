@@ -6,8 +6,7 @@
     nix-darwin.url = "github:LnL7/nix-darwin/master";
     nix-darwin.inputs.nixpkgs.follows = "nixpkgs";
     mac-app-util.url = "github:hraban/mac-app-util";
-    # TODO: Remove the branch when fixed
-    nix-homebrew.url = "github:zhaofengli/nix-homebrew/drop-24.11-support";
+    nix-homebrew.url = "github:zhaofengli/nix-homebrew";
     home-manager.url = "github:nix-community/home-manager";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
     custom-nix-packages.url = "github:ohheyrj/custom-nix-pkgs";
