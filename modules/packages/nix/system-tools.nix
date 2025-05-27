@@ -8,6 +8,7 @@
     inetutils
     jq
     mcfly
+    mcfly-fzf
     mkpasswd
     neofetch
     nixos-rebuild
