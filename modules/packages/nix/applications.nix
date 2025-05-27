@@ -16,6 +16,7 @@
     nur.repos.ohheyrj.kobo-desktop
     nur.repos.ohheyrj.openaudible
     nur.repos.ohheyrj.ps-remote-play
+    nur.repos.ohheyrj.bartender5
     # TODO: package calibre
     #    calibre
     # TODO: package https://cryptomator.org/for-individuals/
