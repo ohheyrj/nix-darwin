@@ -3,8 +3,8 @@
     enableKeyMapping = true;
     remapCapsLockToControl = true;
   };
-  
-  system.activationScripts.postUserActivation.text = ''
-    /System/Library/PrivateFrameworks/SystemAdministration.framework/Resources/activateSettings -u
-  '';
+  # TODO: Fix this code to be able to run again
+  #  system.activationScripts.postUserActivation.text = ''
+  #  /System/Library/PrivateFrameworks/SystemAdministration.framework/Resources/activateSettings -u
+  #'';
 }
