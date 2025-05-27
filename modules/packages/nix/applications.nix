@@ -17,9 +17,8 @@
     nur.repos.ohheyrj.openaudible
     nur.repos.ohheyrj.ps-remote-play
     nur.repos.ohheyrj.bartender5
+    nur.repos.ohheyrj.cryptomator
     # TODO: package calibre
     #    calibre
-    # TODO: package https://cryptomator.org/for-individuals/
-    #    cryptomator
   ];
 }
