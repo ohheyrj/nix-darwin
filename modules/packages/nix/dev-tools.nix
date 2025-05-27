@@ -12,6 +12,7 @@
     ngrok
     undmg
     cachix
+    dbeaver-bin
     # TODO: fix broken postman package
     #postman
   ];
