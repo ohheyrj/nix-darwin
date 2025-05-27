@@ -14,6 +14,7 @@
     alt-tab-macos
     nur.repos.ohheyrj.chatterino
     nur.repos.ohheyrj.kobo-desktop
+    nur.repos.ohheyrj.openaudible
     # TODO: package calibre
     #    calibre
     # TODO: package https://cryptomator.org/for-individuals/
