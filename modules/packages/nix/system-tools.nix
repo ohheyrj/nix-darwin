@@ -25,5 +25,6 @@
     nixos-generators
     dialog
     _7zz
+    nix-search-tv
   ];
 }
