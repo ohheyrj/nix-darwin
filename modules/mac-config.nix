@@ -1,4 +1,5 @@
 { pkgs, system, ... }: {
+  system.primaryUser = "richard";
   system.defaults = {
     NSGlobalDomain.AppleInterfaceStyle = "Dark";
   };
