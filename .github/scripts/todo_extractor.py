@@ -53,7 +53,7 @@ CODE_EXTENSIONS = {
 }
 
 
-def find_todos(directory=".", output_file="todos.md"):
+def find_todos(directory=".", output_file="TODO.md"):
     """
     Scan directory for TODO comments and generate markdown report.
 
@@ -176,8 +176,8 @@ def main():
     parser.add_argument(
         "-o",
         "--output",
-        default="todos.md",
-        help="Output markdown file (default: todos.md)",
+        default="TODO.md",
+        help="Output markdown file (default: TODO.md)",
     )
     parser.add_argument(
         "--extensions",
