@@ -25,5 +25,6 @@
     slack
     # TODO: package signal
     # signal-desktop
+    discord
   ];
 }
