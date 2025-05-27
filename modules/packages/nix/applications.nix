@@ -21,7 +21,7 @@
     nur.repos.ohheyrj.bartender5
     nur.repos.ohheyrj.cryptomator
     # TODO: package calibre
-    #    calibre
+    # calibre
     slack
     # TODO: package signal
     # signal-desktop
