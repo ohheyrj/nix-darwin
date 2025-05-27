@@ -22,5 +22,6 @@
     nur.repos.ohheyrj.cryptomator
     # TODO: package calibre
     #    calibre
+    slack
   ];
 }
