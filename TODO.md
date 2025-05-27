@@ -1,26 +1,8 @@
 # TODO Report
 
-Generated on: 2025-05-27 11:39:01
+Generated on: 2025-05-27 12:55:09
 
-Total TODOs found: 6
-
-## flake.nix
-
-### Line 9
-
-**TODO:** `# TODO: Remove the branch when fixed`
-
-**Context:**
-
-```python
-      7:     nix-darwin.inputs.nixpkgs.follows = "nixpkgs";
-      8:     mac-app-util.url = "github:hraban/mac-app-util";
->>>   9:     # TODO: Remove the branch when fixed
-     10:     nix-homebrew.url = "github:zhaofengli/nix-homebrew/drop-24.11-support";
-     11:     home-manager.url = "github:nix-community/home-manager";
-```
-
----
+Total TODOs found: 4
 
 ## modules/keymapping.nix
 
@@ -60,34 +42,18 @@ Total TODOs found: 6
 
 ## modules/packages/nix/applications.nix
 
-### Line 20
+### Line 21
 
 **TODO:** `# TODO: package calibre`
 
 **Context:**
 
 ```python
-     18:     nur.repos.ohheyrj.ps-remote-play
      19:     nur.repos.ohheyrj.bartender5
->>>  20:     # TODO: package calibre
-     21:     #    calibre
-     22:     # TODO: package https://cryptomator.org/for-individuals/
-```
-
----
-
-### Line 22
-
-**TODO:** `# TODO: package https://cryptomator.org/for-individuals/`
-
-**Context:**
-
-```python
-     20:     # TODO: package calibre
-     21:     #    calibre
->>>  22:     # TODO: package https://cryptomator.org/for-individuals/
-     23:     #    cryptomator
-     24:   ];
+     20:     nur.repos.ohheyrj.cryptomator
+>>>  21:     # TODO: package calibre
+     22:     #    calibre
+     23:   ];
 ```
 
 ---
