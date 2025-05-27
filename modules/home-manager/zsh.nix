@@ -23,6 +23,7 @@
       update-nix-trace = "darwin-rebuild switch --flake ~/nix --show-trace";
       assume = "source assume";
       docker = "podman";
+      ns = "nix-search-tv print | fzf --preview 'nix-search-tv preview {}' --scheme history";
     };
     initContent = ''
       autoload -U compinit && compinit
