@@ -23,5 +23,7 @@
     # TODO: package calibre
     #    calibre
     slack
+    # TODO: package signal
+    # signal-desktop
   ];
 }
