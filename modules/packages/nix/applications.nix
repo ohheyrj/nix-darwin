@@ -13,6 +13,7 @@
     pinentry-curses
     alt-tab-macos
     nur.repos.ohheyrj.chatterino
+    nur.repos.ohheyrj.kobo-desktop
     # TODO: package calibre
     #    calibre
     # TODO: package https://cryptomator.org/for-individuals/
