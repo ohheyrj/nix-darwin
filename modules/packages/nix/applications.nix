@@ -12,6 +12,8 @@
     paperkey
     pinentry-curses
     alt-tab-macos
+    # TODO: package handbrake
+    # handbrake
     nur.repos.ohheyrj.chatterino
     nur.repos.ohheyrj.kobo-desktop
     nur.repos.ohheyrj.openaudible
