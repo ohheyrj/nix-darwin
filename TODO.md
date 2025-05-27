@@ -1,8 +1,8 @@
 # TODO Report
 
-Generated on: 2025-05-27 13:01:40
+Generated on: 2025-05-27 14:11:21
 
-Total TODOs found: 4
+Total TODOs found: 5
 
 ## modules/keymapping.nix
 
@@ -36,6 +36,22 @@ Total TODOs found: 4
 >>>   6:   # TODO: Fix this code to be able to run again
       7:   #  system.activationScripts.extraActivation.text = ''
       8:   #  /System/Library/PrivateFrameworks/SystemAdministration.framework/Resources/activateSettings -u
+```
+
+---
+
+## modules/packages/fonts.nix
+
+### Line 1
+
+**TODO:** `# TODO: Move this to a better location`
+
+**Context:**
+
+```python
+>>>   1: # TODO: Move this to a better location
+      2: { pkgs, ... }:
+      3: 
 ```
 
 ---
