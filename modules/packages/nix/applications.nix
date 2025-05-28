@@ -32,5 +32,33 @@
     # calibre <- Does not work on MacOS
     slack
     discord
+    age
+    fzf
+    gnupg
+    gpgme
+    htop
+    inetutils
+    jq
+    mcfly
+    mcfly-fzf
+    mkpasswd
+    neofetch
+    nixos-rebuild
+    nmap
+    oh-my-posh
+    ripgrep
+    shellcheck
+    speedtest-cli
+    stow
+    tmux
+    tree
+    zoxide
+    sops
+    utm
+    nixos-generators
+    dialog
+    _7zz
+    nix-search-tv
+
   ];
 }
