@@ -4,6 +4,7 @@
     watch
     fd
     ncdu
+    wget
     gimp
     _1password-cli
     chatgpt
