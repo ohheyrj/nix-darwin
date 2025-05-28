@@ -30,8 +30,6 @@
     nur.repos.ohheyrj.signal-desktop
     # calibre <- Does not work on MacOS
     slack
-    # TODO: package signal
-    # signal-desktop
     discord
   ];
 }
