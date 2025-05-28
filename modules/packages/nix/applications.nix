@@ -2,6 +2,7 @@
   environment.systemPackages = with pkgs; [
     exercism
     watch
+    fd
     gimp
     _1password-cli
     chatgpt
