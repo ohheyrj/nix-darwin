@@ -65,7 +65,6 @@
           ./modules/packages/nix/git-tools.nix
           ./modules/packages/nix/kubernetes-tools.nix
           ./modules/packages/nix/system-tools.nix
-          ./modules/packages/nix/custom-packages.nix
           ./modules/packages/nix/fonts.nix
           ./modules/packages/nix/languages-and-databases.nix
           configuration
