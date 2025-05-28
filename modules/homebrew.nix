@@ -3,6 +3,7 @@
     enable = true;
     onActivation = {
       upgrade = true;
+      autoUpdate = true;
     };
     brews = [
       "komiser"

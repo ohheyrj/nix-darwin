@@ -56,7 +56,7 @@
       modules = [
           ./modules/keymapping.nix
           ./modules/mac-config.nix
-          ./modules/packages/brew/brew.nix
+          ./modules/homebrew.nix
           ./modules/packages/nix/applications.nix
           ./modules/packages/nix/cloud-tools.nix
           ./modules/packages/nix/container-tools.nix
