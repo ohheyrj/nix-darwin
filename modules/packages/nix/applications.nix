@@ -6,6 +6,7 @@
     ncdu
     wget
     yq
+    hub
     gimp
     _1password-cli
     chatgpt
