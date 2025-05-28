@@ -27,8 +27,7 @@
     nur.repos.ohheyrj.ps-remote-play
     nur.repos.ohheyrj.bartender5
     nur.repos.ohheyrj.cryptomator
-    # TODO: package calibre
-    # calibre
+    # calibre <- Does not work on MacOS
     slack
     # TODO: package signal
     # signal-desktop
