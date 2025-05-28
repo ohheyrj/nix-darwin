@@ -3,6 +3,7 @@
     exercism
     watch
     fd
+    ncdu
     gimp
     _1password-cli
     chatgpt
