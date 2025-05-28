@@ -20,6 +20,7 @@
     paperkey
     pinentry-curses
     alt-tab-macos
+    nur.repos.ohheyrj.garmin-basecamp
     nur.repos.ohheyrj.handbrake
     nur.repos.ohheyrj.chatterino
     nur.repos.ohheyrj.kobo-desktop
