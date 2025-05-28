@@ -79,7 +79,7 @@
           tags = ["from:oh-my-zsh"];
         }
         {
-          name = "plguins/aws";
+          name = "plugins/aws";
           tags = ["from:oh-my-zsh"];
         }
         {
