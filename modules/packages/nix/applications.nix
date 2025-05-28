@@ -8,6 +8,7 @@
     yq
     hub
     mas
+    wtfutil
     gimp
     _1password-cli
     chatgpt
