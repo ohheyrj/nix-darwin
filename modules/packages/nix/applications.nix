@@ -7,6 +7,7 @@
     wget
     yq
     hub
+    mas
     gimp
     _1password-cli
     chatgpt
