@@ -43,7 +43,7 @@
           nur.overlays.default
         ];
       programs.direnv.enable = true;
-      users.users.richard.home = /Users/richard;
+      users.users.richard.home = "/Users/richard";
       };
   in
   {
