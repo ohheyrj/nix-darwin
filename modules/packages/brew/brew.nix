@@ -5,10 +5,7 @@
       upgrade = true;
     };
     brews = [
-      "mas"
-      "mysql-client@8.4"
       "komiser"
-      "yq"
     ];
     taps = [
       "tailwarden/komiser"
