@@ -60,13 +60,11 @@
           ./modules/packages/nix/applications.nix
           ./modules/packages/nix/cloud-tools.nix
           ./modules/packages/nix/container-tools.nix
-          ./modules/packages/nix/dev-tools.nix
-          ./modules/packages/nix/document-tools.nix
-          ./modules/packages/nix/git-tools.nix
           ./modules/packages/nix/kubernetes-tools.nix
           ./modules/packages/nix/system-tools.nix
           ./modules/packages/nix/fonts.nix
           ./modules/packages/nix/languages-and-databases.nix
+          ./modules/packages/nix/development.nix
           configuration
           mac-app-util.darwinModules.default
           nix-homebrew.darwinModules.nix-homebrew
