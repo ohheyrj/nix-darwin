@@ -6,31 +6,30 @@
 | 1Password for Safari | https://1password.com | |
 | Adobe Acrobat DC | https://www.adobe.com/products/acrobat.html | |
 | Adobe Photoshop (Beta) | https://www.adobe.com/products/photoshop.html | |
-| AllMyBatteries | https://allmybatteries.app | |
+| ~AllMyBatteries~ | ~https://allmybatteries.app~ | Only on App Store |
 | AwardWallet | https://awardwallet.com | |
 | Backblaze | https://www.backblaze.com | |
 | BackblazeRestore | https://www.backblaze.com | |
 | Bitdefender | https://www.bitdefender.com | |
 | Brother | https://www.brother.com | |
 | Brother iPrint&Scan | https://www.brother.com | |
-| Cryptogram | https://cryptogram.app | |
 | CyberPower PowerPanel Personal | https://www.cyberpowersystems.com | |
 | DaisyDisk | https://daisydiskapp.com | |
-| Deliveries | https://junecloud.com/software/mac/deliveries.html | |
+| ~Deliveries~ | ~https://junecloud.com/software/mac/deliveries.html~ | Only on App Store |
 | DisplayLink Manager | https://www.synaptics.com/products/displaylink-graphics | |
 | DisplayLink Software Uninstaller | https://www.synaptics.com/products/displaylink-graphics | |
-| draw.io | https://www.drawio.com | |
+| draw.io | https://www.drawio.com | Already in nix |
 | Dropbox | https://www.dropbox.com | |
-| Element | https://element.io | |
+| Element | https://element.io | Already in nix |
 | Elgato Stream Deck | https://www.elgato.com/stream-deck | |
 | Fakespot | https://www.fakespot.com | |
 | FileBot | https://www.filebot.net | |
-| Flighty | https://flightyapp.com | |
-| FreeYourMusic | https://freeyourmusic.com | |
+| ~Flighty~ | ~https://flightyapp.com~ | Only on App Store |
+| FreeYourMusic | https://freeyourmusic.com | To delete |
 | Garmin Express | https://www.garmin.com/en-US/software/express | |
-| Gestimer | https://maddin.io/gestimer/ | |
+| Gestimer | https://maddin.io/gestimer/ | To delete |
 | Ghostty | https://ghostty.org | |
-| GIMP | https://www.gimp.org | |
+| GIMP | https://www.gimp.org | Already in nix |
 | GitHub Desktop | https://desktop.github.com | |
 | Google Docs | https://docs.google.com | |
 | Google Drive | https://drive.google.com | |
@@ -38,19 +37,19 @@
 | Google Slides | https://slides.google.com | |
 | Grammarly Desktop | https://www.grammarly.com | |
 | Grammarly for Safari | https://www.grammarly.com | |
-| HotKey | https://hotkey.app | |
-| iCaching | https://www.geocaching.com | |
+| HotKey | https://hotkey.app | To Delete |
+| ~iCaching~ | ~https://www.geocaching.com~ | Only in App Store |
 | Infuse | https://firecore.com/infuse | |
-| Inkscape | https://inkscape.org | |
-| JetBrains Toolbox | https://www.jetbrains.com/toolbox-app/ | |
-| Keybase | https://keybase.io | |
+| Inkscape | https://inkscape.org | Already in nix |
+| JetBrains Toolbox | https://www.jetbrains.com/toolbox-app/ | To delete |
+| Keybase | https://keybase.io | Already in nix |
 | KeyboardCleanTool | | |
 | Kindle | https://www.amazon.com/kindle | |
-| Last.fm | https://www.last.fm | |
+| Last.fm | https://www.last.fm | Already in nix |
 | Linphone | https://www.linphone.org | |
 | Little Snitch | https://www.obdev.at/products/littlesnitch/ | |
 | Logi Options+ | https://www.logitech.com/en-us/software/logi-options-plus.html | |
-| MacroFactor | https://macrofactorapp.com | |
+| MacroFactor | https://macrofactorapp.com | To delete |
 | Magnet | https://magnet.crowdcafe.com | |
 | MakeMKV | https://www.makemkv.com | |
 | MenubarX | https://menubarx.app | |
@@ -58,12 +57,10 @@
 | Microsoft OneNote | https://www.microsoft.com/en-us/microsoft-365/onenote | |
 | Microsoft PowerPoint | https://www.microsoft.com/en-us/microsoft-365/powerpoint | |
 | Microsoft Word | https://www.microsoft.com/en-us/microsoft-365/word | |
-| Muse Hub | https://www.musehub.com | |
-| MusicBrainz Picard | https://picard.musicbrainz.org | |
+| Muse Hub | https://www.musehub.com | To delete |
+| MusicBrainz Picard | https://picard.musicbrainz.org | To delete |
 | Name Mangler | https://manytricks.com/namemangler/ | |
 | Net DownloadHelper CoApp | https://www.downloadhelper.net | |
-| Nix Apps | https://nixos.org | |
-| Nix Trampolines | https://nixos.org | |
 | OpenVPN Connect | https://openvpn.net | |
 | P-touch Editor | https://www.brother.com | |
 | Parallels Desktop | https://www.parallels.com | |
