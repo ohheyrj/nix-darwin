@@ -63,7 +63,7 @@
 | Net DownloadHelper CoApp | https://www.downloadhelper.net | |
 | OpenVPN Connect | https://openvpn.net | |
 | P-touch Editor | https://www.brother.com | |
-| Parallels Desktop | https://www.parallels.com | |
+| ~Parallels Desktop~ | ~https://www.parallels.com~ | Cannot be packaged |
 | Parcel | https://parcelapp.net | |
 | Pestle | https://pestleapp.io | |
 | Pluralsight | https://www.pluralsight.com | |
