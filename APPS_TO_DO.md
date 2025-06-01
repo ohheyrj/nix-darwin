@@ -80,15 +80,15 @@
 | reMarkable | https://remarkable.com | |
 | Setapp | https://setapp.com | |
 | Shokz Connect | https://shokz.com | |
-| Sorted | https://www.sortedapp.com | |
+| Sorted | https://www.sortedapp.com | To delete |
 | Steam | https://store.steampowered.com | |
 | Tailscale | https://tailscale.com | |
 | TeamViewer | https://www.teamviewer.com | |
-| TinkerTool | https://www.bresink.com/osx/TinkerTool.html | |
+| TinkerTool | https://www.bresink.com/osx/TinkerTool.html | To Delete |
 | Tower | https://www.git-tower.com | |
 | Trezor Suite | https://trezor.io | |
 | TuneIn | https://tunein.com | |
-| Twingate | https://www.twingate.com | |
+| Twingate | https://www.twingate.com | To Delete |
 | Uninstall Proton Mail | https://proton.me | |
 | Utilities | | |
 | VLC | https://www.videolan.org/vlc/ | |
@@ -96,5 +96,5 @@
 | WhatsApp | https://www.whatsapp.com | |
 | Windows App | https://www.microsoft.com/en-us/windows-app | |
 | Yubico Authenticator | https://www.yubico.com/products/yubico-authenticator/ | |
-| ZAP | https://www.zaproxy.org | |
+| ZAP | https://www.zaproxy.org | To Delete |
 | Zoom | https://zoom.us | |
