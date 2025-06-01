@@ -31,6 +31,7 @@
     nur.repos.ohheyrj.signal-desktop
     nur.repos.ohheyrj.alfred5
     nur.repos.ohheyrj.hazel
+    nur.repos.ohheyrj.calibre
     slack
     discord
     age
@@ -60,6 +61,9 @@
     dialog
     _7zz
     nix-search-tv
-
+    daisydisk
+    drawio
+    keybase
+    lastfm
   ];
 }
