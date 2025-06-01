@@ -5,12 +5,6 @@
       upgrade = true;
       autoUpdate = true;
     };
-    brews = [
-      "komiser"
-    ];
-    taps = [
-      "tailwarden/komiser"
-    ];
    masApps = {
       "1Password for Safari" = 1569813296;
       "AllMyBatteries" = 1621263412;
@@ -37,7 +31,6 @@
       "Pluralsight" = 431748264;
       "Pure Paste" = 1611378436;
       "Tailscale" = 1475387142;
-      "Twingate" = 1501592214;
       "Wallabag QuickSave" = 1621482657;
       "WhatsApp Messenger" = 310633997;
       "Xcode" = 497799835;
