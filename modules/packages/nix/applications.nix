@@ -29,7 +29,7 @@
     nur.repos.ohheyrj.bartender5
     nur.repos.ohheyrj.cryptomator
     nur.repos.ohheyrj.signal-desktop
-    # calibre <- Does not work on MacOS
+    nur.repos.ohheyrj.alfred5
     slack
     discord
     age
