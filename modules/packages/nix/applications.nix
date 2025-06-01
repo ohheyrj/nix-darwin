@@ -30,6 +30,7 @@
     nur.repos.ohheyrj.cryptomator
     nur.repos.ohheyrj.signal-desktop
     nur.repos.ohheyrj.alfred5
+    nur.repos.ohheyrj.hazel
     slack
     discord
     age
