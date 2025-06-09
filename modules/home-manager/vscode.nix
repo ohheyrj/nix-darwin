@@ -22,6 +22,7 @@
           yzhang.markdown-all-in-one
           pkief.material-icon-theme
           jnoortheen.nix-ide
+          dart-code.flutter
         ];
       };
     };
