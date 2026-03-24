@@ -1,0 +1,122 @@
+# Commented From Nix To Brew
+
+These packages were commented out in the Nix package modules because they are now represented in `Brewfile`.
+
+## `modules/packages/nix/applications.nix`
+
+- `watch`
+- `fd`
+- `ncdu`
+- `wget`
+- `yq`
+- `hub`
+- `mas`
+- `wtfutil`
+- `_1password-cli`
+- `chatgpt`
+- `gnupg`
+- `pinentry_mac`
+- `yubikey-manager`
+- `yubikey-personalization`
+- `paperkey`
+- `alt-tab-macos`
+- `nur.repos.ohheyrj.handbrake`
+- `nur.repos.ohheyrj.chatterino`
+- `nur.repos.ohheyrj.cryptomator`
+- `nur.repos.ohheyrj.alfred5`
+- `nur.repos.ohheyrj.hazel`
+- `age`
+- `fzf`
+- `gpgme`
+- `htop`
+- `jq`
+- `mcfly`
+- `mkpasswd`
+- `neofetch`
+- `nmap`
+- `oh-my-posh`
+- `ripgrep`
+- `shellcheck`
+- `speedtest-cli`
+- `stow`
+- `tmux`
+- `tree`
+- `zoxide`
+- `sops`
+- `utm`
+- `dialog`
+- `_7zz`
+- `drawio`
+- `keybase`
+- `lastfm`
+- `zoom-us`
+- `diff-so-fancy`
+- `cookiecutter`
+
+## `modules/packages/nix/development.nix`
+
+- `gitkraken`
+- `graphviz`
+- `pipenv`
+- `pre-commit`
+- `ngrok`
+- `dbeaver-bin`
+- `bruno`
+- `fastlane`
+- `swiftlint`
+- `ghq`
+- `gitleaks`
+- `glab`
+- `bfg-repo-cleaner`
+- `mr`
+- `hugo`
+- `markdownlint-cli`
+- `neovim`
+- `yamllint`
+- `yq`
+- `pngquant`
+- `oxipng`
+
+## `modules/packages/nix/infrastructure.nix`
+
+- `argocd`
+- `aws-nuke`
+- `awscli2`
+- `granted`
+- `infracost`
+- `inframap`
+- `packer`
+- `fluxcd`
+- `terraform-ls`
+- `tflint`
+- `tfsec`
+- `vault`
+- `cilium-cli`
+- `dive`
+- `trivy`
+- `podman`
+- `docker-credential-helpers`
+- `chart-testing`
+- `helm-docs`
+- `k9s`
+- `kompose`
+- `krew`
+- `kube-linter`
+- `kubecm`
+- `kubeconform`
+- `kubectl`
+- `kubectx`
+- `kubernetes-helm`
+- `kubeseal`
+- `popeye`
+- `pv-migrate`
+- `velero`
+- `pluto`
+
+## `modules/packages/nix/languages-and-databases.nix`
+
+- `postgresql_16`
+- `go`
+- `nodejs_22`
+- `python313`
+- `flutter`

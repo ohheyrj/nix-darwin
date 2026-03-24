@@ -17,9 +17,7 @@ This document tracks macOS applications and their packaging status for Nix/NixOS
 ### Development & Code
 | Application | Status | Website | Notes |
 |-------------|--------|---------|-------|
-| GitHub Desktop | 📦 | https://desktop.github.com | |
-| Tower | 📦 | https://www.git-tower.com | |
-| Rancher Desktop | 📦 | https://rancherdesktop.io | |
+
 
 ### Productivity & Office
 | Application | Status | Website | Notes |
@@ -167,6 +165,7 @@ This document tracks macOS applications and their packaging status for Nix/NixOS
 #### Cannot Be Packaged
 | Application | Status | Website | Notes |
 |-------------|--------|---------|-------|
-| Parallels Desktop | ❌ | https://www.parallels.com | Uses proprietary installer |
 | Backblaze | ❌ | https://www.backblaze.com | Account-specific installer |
 | BackblazeRestore | ❌ | https://www.backblaze.com | Account-specific installer |
+| Parallels Desktop | ❌ | https://www.parallels.com | Uses proprietary installer |
+| Rancher Desktop | ❌ | https://rancherdesktop.io | Does not work with Gatekeeper |

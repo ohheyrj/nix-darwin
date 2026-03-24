@@ -56,10 +56,9 @@
       modules = [
           ./modules/keymapping.nix
           ./modules/mac-config.nix
-          ./modules/homebrew.nix
           ./modules/security.nix
           ./modules/packages/nix/applications.nix
-          ./modules/packages/nix/fonts.nix
+          # ./modules/packages/nix/fonts.nix
           ./modules/packages/nix/languages-and-databases.nix
           ./modules/packages/nix/development.nix
           ./modules/packages/nix/infrastructure.nix

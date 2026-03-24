@@ -1,0 +1,73 @@
+{
+    autohide = 1;
+    "autohide-time-modifier" = 0;
+    largesize = 128;
+    "last-analytics-stamp" =     (
+        "770287436.747129"
+    );
+    lastShowIndicatorTime = "675782372.757614";
+    loc = "en_GB:GB";
+    mineffect = genie;
+    "mod-count" = 1625;
+    "no-bouncing" = 0;
+    orientation = left;
+    "persistent-apps" =     (
+                {
+            GUID = 1865977648;
+            "tile-data" =             {
+                book = {length = 588, bytes = 0x626f6f6b 4c020000 00000410 30000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.ScreenContinuity";
+                "dock-extra" = 1;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///System/Applications/iPhone%20Mirroring.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = "iPhone Mirroring";
+                "file-mod-date" = 3816403915;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 3816403915;
+            };
+            "tile-type" = "file-tile";
+        }
+    );
+    "persistent-others" =     (
+                {
+            GUID = 2549988923;
+            "tile-data" =             {
+                arrangement = 1;
+                book = {length = 668, bytes = 0x626f6f6b 9c020000 00000410 30000000 ... 04000000 00000000 };
+                displayas = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Users/richard/Downloads/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Downloads;
+                "file-mod-date" = 94235386483008;
+                "file-type" = 2;
+                "is-beta" = 0;
+                "parent-mod-date" = 175848355174558;
+                preferreditemsize = "-1";
+                showas = 0;
+            };
+            "tile-type" = "directory-tile";
+        }
+    );
+    "recent-apps" =     (
+    );
+    region = GB;
+    "show-recents" = 0;
+    showAppExposeGestureEnabled = 1;
+    showhidden = 1;
+    tilesize = 44;
+    "trash-full" = 1;
+    version = 1;
+    "wvous-bl-corner" = 0;
+    "wvous-bl-modifier" = 0;
+    "wvous-br-corner" = 4;
+    "wvous-br-modifier" = 0;
+    "wvous-tl-corner" = 0;
+    "wvous-tl-modifier" = 0;
+    "wvous-tr-corner" = 0;
+    "wvous-tr-modifier" = 0;
+}

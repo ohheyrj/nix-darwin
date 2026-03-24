@@ -3,34 +3,41 @@
     # Development Tools
     black
     devenv
-    gitkraken
-    graphviz
-    pipenv
-    pre-commit
+    # Moved to Brewfile:
+    # gitkraken
+    # graphviz
+    # pipenv
+    # pre-commit
     statix
-    ngrok
+    # ngrok
     undmg
     cachix
-    dbeaver-bin
+    # dbeaver-bin
     # TODO: fix broken postman package
     #postman
+    # bruno
+    # fastlane
+    # swiftlint
 
     # Git tools
-    ggshield
-    ghq
-    gitleaks
+    # ggshield
+    # ghq
+    # gitleaks
     gitlint
     gitmoji-cli
-    glab
-    bfg-repo-cleaner
-    mr
-    gitkraken
+    # glab
+    # bfg-repo-cleaner
+    # mr
+    # gitkraken
 
     # Documentation Tools
-    hugo
-    markdownlint-cli
-    neovim
-    yamllint
-    yq
+    # hugo
+    # markdownlint-cli
+    # neovim
+    # yamllint
+    # yq
+
+    # pngquant
+    # oxipng
   ];
 }

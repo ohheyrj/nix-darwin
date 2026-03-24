@@ -1,0 +1,222 @@
+tap "busser/tap"
+tap "checkmarx/tap"
+tap "common-fate/granted"
+tap "derailed/k9s"
+tap "derailed/popeye"
+tap "env0/terratag"
+tap "fluxcd/tap"
+tap "gabrie30/utils"
+tap "hashicorp/tap"
+tap "homebrew/bundle"
+tap "homebrew/cask-fonts"
+tap "homebrew/services"
+tap "jandedobbeleer/oh-my-posh"
+tap "jorgelbg/tap"
+tap "lindell/multi-gitter"
+tap "ngrok/ngrok"
+tap "norwoodj/tap"
+tap "peripheryapp/periphery"
+tap "robscott/tap"
+tap "robusta-dev/krr"
+tap "steipete/tap"
+tap "tailwarden/komiser"
+tap "twitchdev/twitch"
+tap "utkuozdemir/pv-migrate"
+tap "vinivendra/gryphon"
+tap "weaveworks/tap"
+
+# CLI packages
+brew "7zip"
+brew "age"
+brew "argocd"
+brew "aws-nuke"
+brew "awscli"
+brew "awslogs", link: false
+brew "bfg"
+brew "bison"
+brew "chart-testing"
+brew "chruby"
+brew "cilium-cli"
+brew "cmake"
+brew "cookiecutter"
+brew "coreutils"
+brew "ctags"
+brew "dfu-util"
+brew "dialog"
+brew "diff-so-fancy"
+brew "dive"
+brew "docker-credential-helper"
+brew "fastlane"
+brew "fd"
+brew "fluxcd/tap/flux"
+brew "fzf"
+brew "gcc"
+brew "gdbm"
+brew "ghq"
+brew "git"
+brew "gitleaks"
+brew "glab"
+brew "gpgme"
+brew "gnupg"
+brew "go"
+brew "graphviz"
+brew "common-fate/granted/granted"
+brew "hdf5"
+brew "helm"
+brew "helm-docs"
+brew "htop"
+brew "hub"
+brew "hugo"
+brew "infracost"
+brew "inframap"
+brew "jq"
+brew "jpeg-xl"
+brew "jandedobbeleer/oh-my-posh/oh-my-posh"
+brew "k9s"
+brew "kompose"
+brew "krew"
+brew "kubecm"
+brew "kubectl"
+brew "kubectx"
+brew "kubeconform"
+brew "kube-linter"
+brew "kubeseal"
+brew "libffi"
+brew "libksba"
+brew "libmatio"
+brew "libraw"
+brew "libssh2"
+brew "libtool"
+brew "libyaml"
+brew "little-cms2"
+brew "markdownlint-cli"
+brew "mas"
+brew "mcfly"
+brew "expect"
+brew "mr"
+brew "mysql-client@8.0"
+brew "ncdu"
+brew "neofetch"
+brew "neovim"
+brew "netpbm"
+brew "ngrok/ngrok/ngrok"
+brew "ninja"
+brew "nmap"
+brew "node@22"
+brew "open-mpi"
+brew "oxipng"
+# brew "packer"
+brew "paperkey"
+brew "pinentry-mac"
+brew "pipenv"
+brew "pluto"
+brew "pngquant"
+brew "podman"
+brew "derailed/popeye/popeye"
+brew "postgresql@16"
+brew "pre-commit"
+brew "utkuozdemir/pv-migrate/pv-migrate"
+brew "pycparser"
+brew "python@3.13"
+brew "qrencode"
+brew "ripgrep"
+brew "ruby-install"
+brew "shellcheck"
+brew "signal-cli"
+brew "sops"
+brew "speedtest-cli"
+brew "stow"
+brew "swiftlint"
+brew "tailwarden/komiser/komiser"
+brew "hashicorp/tap/terraform-ls"
+brew "tfsec"
+brew "tflint"
+brew "tmux"
+brew "tree"
+brew "trivy"
+brew "twitchdev/twitch/twitch-cli"
+brew "hashicorp/tap/vault"
+brew "velero"
+brew "watch"
+brew "webp"
+brew "wget"
+brew "wtfutil"
+brew "xz"
+brew "yamllint"
+brew "ykman"
+brew "ykpers"
+brew "yq"
+brew "zoxide"
+brew "zsh-autosuggestions"
+brew "zsh-completions"
+
+# GUI applications
+cask "1password-cli"
+cask "alfred"
+cask "alt-tab"
+cask "amazon-workspaces"
+cask "blackhole-2ch"
+cask "bruno"
+cask "chatterino"
+cask "chatgpt"
+cask "codexbar"
+cask "cryptomator"
+cask "dbeaver-community"
+cask "drawio"
+cask "flutter"
+cask "ghostty"
+cask "gitkraken"
+cask "gitkraken-cli"
+cask "google-drive"
+cask "handbrake"
+cask "hazel"
+cask "keybase"
+# cask "last-fm"
+cask "linphone"
+cask "microsoft-auto-update"
+cask "microsoft-excel"
+cask "microsoft-powerpoint"
+cask "microsoft-word"
+cask "periphery"
+cask "raspberry-pi-imager"
+cask "steam"
+cask "utm"
+cask "zoom"
+
+# Mac App Store applications
+mas "1Password for Safari", id: 1569813296
+mas "AllMyBatteries", id: 1621263412
+mas "Apple Configurator", id: 1037126344
+mas "AwardWallet", id: 1473828829
+mas "Brother P-touch Editor", id: 1453365242
+mas "Brother iPrint&Scan", id: 1193539993
+mas "CotEditor", id: 1024640650
+mas "Craft", id: 1487937127
+mas "Deliveries", id: 290986013
+mas "Developer", id: 640199958
+mas "Fakespot", id: 1592541616
+mas "Flighty", id: 1358823008
+mas "Grammarly for Safari", id: 1462114288
+mas "HotKey", id: 975890633
+mas "Infuse", id: 1136220934
+mas "Keynote", id: 409183694
+mas "Kindle Classic", id: 405399194
+mas "Magnet", id: 441258766
+mas "MenubarX", id: 1575588022
+mas "Microsoft OneNote", id: 784801555
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Parcel", id: 639968404
+mas "Pluralsight", id: 431748264
+mas "Prime Video", id: 545519333
+mas "Pure Paste", id: 1611378436
+mas "RapidClick", id: 419891002
+mas "Tailscale", id: 1475387142
+mas "Telegram Lite", id: 946399090
+mas "Twingate", id: 1501592214
+mas "Wallabag QuickSave", id: 1621482657
+mas "WhatsApp Messenger", id: 310633997
+mas "Xcode", id: 497799835
+mas "Yubico Authenticator", id: 1497506650
+mas "iCaching", id: 420484346
+mas "reMarkable", id: 1276493162

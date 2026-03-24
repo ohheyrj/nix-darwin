@@ -1,10 +1,23 @@
 { pkgs, system, ... }: {
   system.primaryUser = "richard";
   system.defaults = {
-    NSGlobalDomain.AppleInterfaceStyle = "Dark";
+    NSGlobalDomain.AppleInterfaceStyleSwitchesAutomatically = true;
+    dock = {
+      autohide = true;
+      orientation = "left";
+      tilesize = 44;
+      show-recents = false;
+      persistent-apps = [];
+    };
+    menuExtraClock = {
+      Show24Hour = true;
+      ShowDayOfWeek = true;
+      ShowDate = 1;
+    };
+    CustomUserPreferences = {
+      "com.apple.finder" = {
+        sortColumn = "name";
+      };
+    };
   };
-  # TODO: Fix this code to be able to run again
-  #  system.activationScripts.extraActivation.text = ''
-  #  /System/Library/PrivateFrameworks/SystemAdministration.framework/Resources/activateSettings -u
-  #'';
 }

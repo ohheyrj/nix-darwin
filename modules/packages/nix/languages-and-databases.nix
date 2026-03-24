@@ -1,19 +1,20 @@
 { pkgs, ... }: {
   environment.systemPackages = with pkgs; [
     # Database - Postgres
-    postgresql_16
+    # Moved to Brewfile:
+    # postgresql_16
 
     # Language - Go
-    go
+    # go
 
     # Language - Node
-    nodejs_22
+    # nodejs_22
 
     # Language - Python
-    python313
+    # python313
     python313Packages.pip
 
     # Language - Flutter
-    flutter
+    # flutter
   ];
 }
