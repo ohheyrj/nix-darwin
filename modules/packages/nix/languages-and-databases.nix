@@ -12,5 +12,8 @@
     # Language - Python
     python313
     python313Packages.pip
+
+    # Language - Flutter
+    flutter
   ];
 }

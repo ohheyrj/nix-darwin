@@ -1,6 +1,5 @@
 { pkgs, ... }: {
   environment.systemPackages = with pkgs; [
-    exercism
     watch
     fd
     ncdu
@@ -39,13 +38,11 @@
     gnupg
     gpgme
     htop
-    inetutils
     jq
     mcfly
     mcfly-fzf
     mkpasswd
     neofetch
-    nixos-rebuild
     nmap
     oh-my-posh
     ripgrep
@@ -57,7 +54,6 @@
     zoxide
     sops
     utm
-    nixos-generators
     dialog
     _7zz
     nix-search-tv
@@ -65,5 +61,10 @@
     drawio
     keybase
     lastfm
+    zoom-us
+    inkscape
+    gimp
+    diff-so-fancy
+    twitch-tui
   ];
 }

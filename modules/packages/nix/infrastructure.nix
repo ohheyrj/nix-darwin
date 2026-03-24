@@ -26,6 +26,7 @@
     podman
     podman-tui
     podman-compose
+    docker-credential-helpers
     lens # Outdated
 
     # Kubernetes Tools

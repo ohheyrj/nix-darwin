@@ -1,8 +1,9 @@
 { config, pkgs, ... }:
 
 {
-  programs.tmux = {
-    enable = true;
-    clock24 = false;
-  };
+  # Moved to ~/dotfiles/tmux/.tmux.conf (managed by stow)
+  # programs.tmux = {
+  #   enable = true;
+  #   clock24 = false;
+  # };
 }
